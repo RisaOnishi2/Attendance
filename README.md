@@ -16,10 +16,10 @@ Laravel Framework 8.83.29,
 MySQL 8.0.26
 ## ログイン情報
 ・管理者
-　名前：管理者、E-MAIL：admin@example.com、PASSWORD：password123
+　1.名前：管理者、E-MAIL：admin@example.com、PASSWORD：password123
 ・一般ユーザー
-  名前：山田 太郎、E-MAIL：user1@example.com、PASSWORD：password1
-  名前：西 怜奈、E-MAIL：user2@example.com、PASSWORD：password2
+  1.名前：山田 太郎、E-MAIL：user1@example.com、PASSWORD：password1
+  2.名前：西 怜奈、E-MAIL：user2@example.com、PASSWORD：password2
   名前：増田 一世、E-MAIL：user3@example.com、PASSWORD：password3
   名前：山本 敬吉、E-MAIL：user4@example.com、PASSWORD：password4
   名前：秋田 朋美、E-MAIL：user5@example.com、PASSWORD：password5
