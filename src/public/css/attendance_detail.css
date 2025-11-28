@@ -1,0 +1,76 @@
+.attendance-detail-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flash-message {
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.flash-message.success {
+    background-color: #e6ffed;
+    color: #2e7d32;
+}
+
+.flash-message.error {
+    background-color: #ffe6e6;
+    color: #c62828;
+}
+
+.attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.attendance-table th {
+    width: 25%;
+    background: #f9f9f9;
+    font-weight: bold;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.approve-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.approve-btn:hover {
+    background-color: #0056b3;
+}
+
+.approved-label {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e7d32;
+}

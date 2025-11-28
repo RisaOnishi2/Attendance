@@ -1,0 +1,95 @@
+.attendance-container {
+    padding: 1.5rem;
+    /* p-6 */
+    background-color: #f9fafb;
+    /* bg-gray-50 */
+    min-height: 100vh;
+}
+
+.attendance-title {
+    font-size: 1.25rem;
+    /* text-xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.attendance-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+    /* space-x-4 */
+}
+
+.attendance-nav a {
+    padding: 0.25rem 0.75rem;
+    /* px-3 py-1 */
+    background-color: #e5e7eb;
+    /* bg-gray-200 */
+    border-radius: 0.25rem;
+    /* rounded */
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.2s;
+}
+
+.attendance-nav a:hover {
+    background-color: #d1d5db;
+    /* hover:bg-gray-300 */
+}
+
+.attendance-date-picker {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* space-x-2 */
+}
+
+.attendance-date-picker input {
+    border: 1px solid #d1d5db;
+    /* border */
+    border-radius: 0.25rem;
+    /* rounded */
+    padding: 0.25rem;
+    /* p-1 */
+}
+
+.attendance-table {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    /* bg-white */
+    border-radius: 0.25rem;
+    /* rounded */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+.attendance-table thead {
+    background-color: #f3f4f6;
+    /* bg-gray-100 */
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 0.5rem 0.75rem;
+    /* py-2 + horizontal padding */
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.attendance-table td a {
+    color: #3b82f6;
+    /* text-blue-500 */
+    text-decoration: none;
+}
+
+.attendance-table td a:hover {
+    text-decoration: underline;
+}
+
+.attendance-empty {
+    padding: 1rem 0;
+    color: #6b7280;
+    /* text-gray-500 */
+}

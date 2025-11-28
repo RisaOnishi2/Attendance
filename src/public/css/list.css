@@ -1,0 +1,71 @@
+/* 勤怠一覧 全体 */
+.attendance-list {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* タイトル */
+.attendance-list h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 月ナビゲーション */
+.month-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.month-nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.month-nav span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* テーブル */
+.attendance-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.attendance-list th,
+.attendance-list td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.attendance-list thead {
+    background: #f1f1f1;
+    font-weight: bold;
+}
+
+.attendance-list tbody tr:hover {
+    background: #f9f9f9;
+}
+
+/* 詳細リンク */
+.attendance-list a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attendance-list a:hover {
+    text-decoration: underline;
+}

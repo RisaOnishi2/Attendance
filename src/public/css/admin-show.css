@@ -1,0 +1,64 @@
+.attendance-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attendance-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.month-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.month-navigation a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.current-month {
+    font-weight: bold;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+}
+
+.attendance-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.csv-button {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.csv-button button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
